@@ -1,0 +1,126 @@
+BODY {
+	margin:0px;
+}
+form
+{
+	margin:0px;
+	padding:0;
+}
+table 
+{
+	font-size: 12px;
+}
+table tr
+{
+	background-color: #FFF;
+}
+a:active {
+	color: #0000CC;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF9900;
+	text-decoration: none;
+}
+a:link {
+	color: #0000CC;
+	text-decoration: none;
+
+}
+a:visited {
+	color: #0000CC;
+	text-decoration: none;
+}
+
+.Input {
+FONT-SIZE: 14px; BORDER: #ccc 1px solid; COLOR: #4f4f4f; BACKGROUND-COLOR: #f7f7f7; 
+margin-top:2px;
+margin-bottom:2px;
+margin-left:8px;
+}
+
+.BarTitle {
+	font-size: 14px;
+	background-color: #f6f6f6;
+	
+}
+
+.BarTitleBg {
+	background-color: #336699;
+	font-size: 14px;
+	color: #FFFFFF;
+	text-align:center;
+	height:20px;
+}
+.EditInput a
+{
+	margin:5px 5px 0px 5px;
+	float:left;
+	font-size: 12px;
+	width: 60px;
+	height: 17px;
+	line-height:17px;
+	background-image: url(../Images/Skin/But01_out.gif);
+	background-repeat:no-repeat;
+	display:block;
+	text-align:center;
+	padding-top:3px;
+	padding-bottom:5px;
+	color:Black;
+}
+.EditInput a:link
+{
+	color:Black;
+}
+.EditInput a:hover
+{
+	background-image: url(../Images/Skin/But01_over.gif);
+}
+.EditInput a:visited 
+{
+	color:Black;
+}
+.EditInput2 a
+{
+	margin:5px 5px 0px 5px;
+	float:left;
+	font-size: 12px;
+	width: 81px;
+	height: 17px;
+	line-height:17px;
+	background-image: url(../Images/Skin/But02_out.gif);
+	background-repeat:no-repeat;
+	display:block;
+	text-align:center;
+	padding-top:3px;
+	padding-bottom:5px;
+	padding-left:0px;
+	color:Black;
+}
+.EditInput2 a:link
+{
+	color:Black;
+}
+.EditInput2 a:hover
+{
+	background-image: url(../Images/Skin/But02_over.gif);
+}
+.EditInput2 a:visited 
+{
+	color:Black;
+}
+.Button
+{
+	margin:5px 5px 0px 5px;
+	font-size: 12px;
+	width: 60px;
+	height: 17px;
+	line-height:17px;
+	background-image: url(../Images/Skin/But01_out.gif);
+	background-repeat:no-repeat;
+	display:block;
+	text-align:center;
+	padding-top:3px;
+	padding-bottom:5px;
+	color:Black;
+}

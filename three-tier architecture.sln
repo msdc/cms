@@ -1,0 +1,112 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISS.CMS.BLL", "ISS.CMS.BLL\ISS.CMS.BLL.csproj", "{B69DA6F8-3B90-4D1D-B8CB-B9CD5A8EB541}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISS.CMS.ClassFactory", "ISS.CMS.ClassFactory\ISS.CMS.ClassFactory.csproj", "{FE32656E-94DA-4C55-8DEE-A99FFD65DC5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISS.CMS.DAL", "ISS.CMS.DAL\ISS.CMS.DAL.csproj", "{6F080D56-20E5-4C75-9C09-12A6029CC716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISS.CMS.IDAL", "ISS.CMS.IDAL\ISS.CMS.IDAL.csproj", "{73B78D8A-2772-4D8F-8C85-2B264302D438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISS.CMS.Model", "ISS.CMS.Model\ISS.CMS.Model.csproj", "{73694B4E-6D73-4891-9D88-AAFE9BF809FC}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ISS.CMS.Web", "ISS.CMS.Web", "{10E23588-43F9-4FEB-84E5-2D5E825003BC}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{73694b4e-6d73-4891-9d88-aafe9bf809fc}|ISS.CMS.Model.dll;{b69da6f8-3b90-4d1d-b8cb-b9cd5a8eb541}|ISS.CMS.BLL.dll;{FE32656E-94DA-4C55-8DEE-A99FFD65DC5B}|ISS.CMS.ClassFactory.dll;{6F080D56-20E5-4C75-9C09-12A6029CC716}|ISS.CMS.DAL.dll;{73B78D8A-2772-4D8F-8C85-2B264302D438}|ISS.CMS.IDAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/ISS.CMS.Web"
+		Debug.AspNetCompiler.PhysicalPath = "ISS.CMS.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ISS.CMS.Web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ISS.CMS.Web"
+		Release.AspNetCompiler.PhysicalPath = "ISS.CMS.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ISS.CMS.Web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "64657"
+	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ISS.CMS.Data", "ISS.CMS.Data\ISS.CMS.Data.sqlproj", "{2280A842-D62A-49E0-B87C-8A193918F16B}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://115.28.205.176:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ISS.CMS.BLL\\ISS.CMS.BLL.csproj
+		SccProjectName1 = ISS.CMS.BLL
+		SccLocalPath1 = ISS.CMS.BLL
+		SccProjectUniqueName2 = ISS.CMS.ClassFactory\\ISS.CMS.ClassFactory.csproj
+		SccProjectName2 = ISS.CMS.ClassFactory
+		SccLocalPath2 = ISS.CMS.ClassFactory
+		SccProjectUniqueName3 = ISS.CMS.DAL\\ISS.CMS.DAL.csproj
+		SccProjectName3 = ISS.CMS.DAL
+		SccLocalPath3 = ISS.CMS.DAL
+		SccProjectUniqueName4 = ISS.CMS.IDAL\\ISS.CMS.IDAL.csproj
+		SccProjectName4 = ISS.CMS.IDAL
+		SccLocalPath4 = ISS.CMS.IDAL
+		SccProjectUniqueName5 = ISS.CMS.Model\\ISS.CMS.Model.csproj
+		SccProjectName5 = ISS.CMS.Model
+		SccLocalPath5 = ISS.CMS.Model
+		SccProjectUniqueName6 = ISS.CMS.Data\\ISS.CMS.Data.sqlproj
+		SccProjectName6 = ISS.CMS.Data
+		SccLocalPath6 = ISS.CMS.Data
+		SccWebProject7 = true
+		SccProjectUniqueName7 = ISS.CMS.Web
+		SccProjectName7 = ISS.CMS.Web
+		SccLocalPath7 = ISS.CMS.Web
+		SccProjectEnlistmentChoice7 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B69DA6F8-3B90-4D1D-B8CB-B9CD5A8EB541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69DA6F8-3B90-4D1D-B8CB-B9CD5A8EB541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69DA6F8-3B90-4D1D-B8CB-B9CD5A8EB541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69DA6F8-3B90-4D1D-B8CB-B9CD5A8EB541}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE32656E-94DA-4C55-8DEE-A99FFD65DC5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE32656E-94DA-4C55-8DEE-A99FFD65DC5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE32656E-94DA-4C55-8DEE-A99FFD65DC5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE32656E-94DA-4C55-8DEE-A99FFD65DC5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F080D56-20E5-4C75-9C09-12A6029CC716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F080D56-20E5-4C75-9C09-12A6029CC716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F080D56-20E5-4C75-9C09-12A6029CC716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F080D56-20E5-4C75-9C09-12A6029CC716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73B78D8A-2772-4D8F-8C85-2B264302D438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B78D8A-2772-4D8F-8C85-2B264302D438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B78D8A-2772-4D8F-8C85-2B264302D438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B78D8A-2772-4D8F-8C85-2B264302D438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73694B4E-6D73-4891-9D88-AAFE9BF809FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73694B4E-6D73-4891-9D88-AAFE9BF809FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73694B4E-6D73-4891-9D88-AAFE9BF809FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73694B4E-6D73-4891-9D88-AAFE9BF809FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E23588-43F9-4FEB-84E5-2D5E825003BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E23588-43F9-4FEB-84E5-2D5E825003BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E23588-43F9-4FEB-84E5-2D5E825003BC}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E23588-43F9-4FEB-84E5-2D5E825003BC}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2280A842-D62A-49E0-B87C-8A193918F16B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2280A842-D62A-49E0-B87C-8A193918F16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2280A842-D62A-49E0-B87C-8A193918F16B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2280A842-D62A-49E0-B87C-8A193918F16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2280A842-D62A-49E0-B87C-8A193918F16B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2280A842-D62A-49E0-B87C-8A193918F16B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

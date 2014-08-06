@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="gb2312"?>
+<configuration>
+  <site>
+    <imp>
+      <FileExtension>.shtml</FileExtension>
+      <DubleOnlineUser>1</DubleOnlineUser>
+      <PageSize>15</PageSize>
+      <ShowFolderError>1</ShowFolderError>
+      <NewsKeyWordListNum>0</NewsKeyWordListNum>
+    </imp>
+    <other>
+      <SiteTitle>CMS_DotNet</SiteTitle>
+      <SysTitle>CMS_DotNet</SysTitle>
+      <SoftCopyright>CMS_DotNet</SoftCopyright>
+      <IsAutoRemberLoginName>0</IsAutoRemberLoginName>
+      <AutoRemberLoginName>5</AutoRemberLoginName>
+      <ShowNewsContorlPlane>1</ShowNewsContorlPlane>
+      <ReCheckAfterModify>0</ReCheckAfterModify>
+      <ConfirmWhenExitNewsSystem>1</ConfirmWhenExitNewsSystem>
+      <UseLoginPolliceMan>1</UseLoginPolliceMan>
+      <EnableLoginWrong>5</EnableLoginWrong>
+      <LoginWrongLockTimeRange>600</LoginWrongLockTimeRange>
+    </other>
+    <dir>
+      <DirectoryRoot>~/Uploads</DirectoryRoot>
+      <EnableFileExt>|htm|html|jpg|gif|bmp|txt|doc|jepg|swf|</EnableFileExt>
+    </dir>
+  </site>
+</configuration>

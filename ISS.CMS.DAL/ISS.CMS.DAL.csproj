@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6F080D56-20E5-4C75-9C09-12A6029CC716}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ISS.CMS.DAL</RootNamespace>
+    <AssemblyName>ISS.CMS.DAL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AuthorDaoImpl.cs" />
+    <Compile Include="AuthorDaoProxy.cs" />
+    <Compile Include="CommonTemplateDaoImpl.cs" />
+    <Compile Include="CommonTemplateDaoProxy.cs" />
+    <Compile Include="DbParameterGenerator.cs" />
+    <Compile Include="DynamicInsertImpl.cs" />
+    <Compile Include="DynamicInsertProxy.cs" />
+    <Compile Include="FromDaoImpl.cs" />
+    <Compile Include="FromDaoProxy.cs" />
+    <Compile Include="ClassDaoImpl.cs" />
+    <Compile Include="ClassDaoProxy.cs" />
+    <Compile Include="MenuDaoImpl.cs" />
+    <Compile Include="MenuDaoProxy.cs" />
+    <Compile Include="ModelHandler.cs" />
+    <Compile Include="NewsViewDaoImpl.cs" />
+    <Compile Include="NewsViewDaoProxy.cs" />
+    <Compile Include="PageDaoImpl.cs" />
+    <Compile Include="PageDaoProxy.cs" />
+    <Compile Include="RoleDaoImpl.cs" />
+    <Compile Include="RoleDaoProxy.cs" />
+    <Compile Include="SpecialityDaoImpl.cs" />
+    <Compile Include="SpecialityDaoProxy.cs" />
+    <Compile Include="SqlHelper.cs" />
+    <Compile Include="StaticInsertImpl.cs" />
+    <Compile Include="StaticInsertProxy.cs" />
+    <Compile Include="TemplateDaoImpl.cs" />
+    <Compile Include="TemplateDaoProxy.cs" />
+    <Compile Include="UserDaoImpl.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserDaoProxy.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ISS.CMS.IDAL\ISS.CMS.IDAL.csproj">
+      <Project>{73B78D8A-2772-4D8F-8C85-2B264302D438}</Project>
+      <Name>ISS.CMS.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ISS.CMS.Model\ISS.CMS.Model.csproj">
+      <Project>{73694B4E-6D73-4891-9D88-AAFE9BF809FC}</Project>
+      <Name>ISS.CMS.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
